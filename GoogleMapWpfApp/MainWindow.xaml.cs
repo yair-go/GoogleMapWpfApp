@@ -59,7 +59,6 @@ namespace GoogleMapWpfApp
                     TravelMode = travelMode,
                     Origin = source,
                     Destination = dest,
-                    //Destination = "31.8414894,35.2471631"
                 };
 
                 DirectionsResponse drivingDirections = GoogleMaps.Directions.Query(drivingDirectionRequest);

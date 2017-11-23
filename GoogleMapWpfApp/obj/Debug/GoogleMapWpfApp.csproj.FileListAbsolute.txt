@@ -18,3 +18,22 @@ C:\Users\mailo\Dropbox\לימודים\דוגמאות קוד\GoogleMapWpfApp\Goog
 C:\Users\mailo\Dropbox\לימודים\דוגמאות קוד\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\UserControl\PlaceAutoCompleteUC.baml
 C:\Users\mailo\Dropbox\לימודים\דוגמאות קוד\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\mailo\Dropbox\לימודים\דוגמאות קוד\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\GoogleMapWpfApp.csprojResolveAssemblyReference.cache
+C:\JCT\Courses\sem A\C#miniProject\Example Code\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\GoogleMapWpfApp.exe
+C:\JCT\Courses\sem A\C#miniProject\Example Code\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\GoogleMapWpfApp.pdb
+C:\JCT\Courses\sem A\C#miniProject\Example Code\GoogleMapWpfApp\GoogleMapWpfApp\bin\Debug\GoogleMapWpfApp.exe.config
+C:\JCT\Courses\sem A\C#miniProject\Example Code\GoogleMapWpfApp\GoogleMapWpfApp\bin\Debug\GoogleMapWpfApp.exe
+C:\JCT\Courses\sem A\C#miniProject\Example Code\GoogleMapWpfApp\GoogleMapWpfApp\bin\Debug\GoogleMapWpfApp.pdb
+C:\JCT\Courses\sem A\C#miniProject\Example Code\GoogleMapWpfApp\GoogleMapWpfApp\bin\Debug\GoogleMapsApi.dll
+C:\JCT\Courses\sem A\C#miniProject\Example Code\GoogleMapWpfApp\GoogleMapWpfApp\bin\Debug\Newtonsoft.Json.dll
+C:\JCT\Courses\sem A\C#miniProject\Example Code\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\GoogleMapWpfApp.csprojResolveAssemblyReference.cache
+C:\JCT\Courses\sem A\C#miniProject\Example Code\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\MainWindow.g.cs
+C:\JCT\Courses\sem A\C#miniProject\Example Code\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\UserControl\PlaceAutoCompleteUC.g.cs
+C:\JCT\Courses\sem A\C#miniProject\Example Code\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\App.g.cs
+C:\JCT\Courses\sem A\C#miniProject\Example Code\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\JCT\Courses\sem A\C#miniProject\Example Code\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\GoogleMapWpfApp_MarkupCompile.cache
+C:\JCT\Courses\sem A\C#miniProject\Example Code\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\GoogleMapWpfApp_MarkupCompile.lref
+C:\JCT\Courses\sem A\C#miniProject\Example Code\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\MainWindow.baml
+C:\JCT\Courses\sem A\C#miniProject\Example Code\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\UserControl\PlaceAutoCompleteUC.baml
+C:\JCT\Courses\sem A\C#miniProject\Example Code\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\GoogleMapWpfApp.g.resources
+C:\JCT\Courses\sem A\C#miniProject\Example Code\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\GoogleMapWpfApp.Properties.Resources.resources
+C:\JCT\Courses\sem A\C#miniProject\Example Code\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\GoogleMapWpfApp.csproj.GenerateResource.Cache
