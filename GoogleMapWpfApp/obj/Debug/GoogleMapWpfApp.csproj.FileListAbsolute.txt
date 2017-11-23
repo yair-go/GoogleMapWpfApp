@@ -37,3 +37,22 @@ C:\JCT\Courses\sem A\C#miniProject\Example Code\GoogleMapWpfApp\GoogleMapWpfApp\
 C:\JCT\Courses\sem A\C#miniProject\Example Code\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\GoogleMapWpfApp.g.resources
 C:\JCT\Courses\sem A\C#miniProject\Example Code\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\GoogleMapWpfApp.Properties.Resources.resources
 C:\JCT\Courses\sem A\C#miniProject\Example Code\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\GoogleMapWpfApp.csproj.GenerateResource.Cache
+C:\Users\coshri\Source\Repos\GoogleMapWpfApp\GoogleMapWpfApp\bin\Debug\GoogleMapWpfApp.exe.config
+C:\Users\coshri\Source\Repos\GoogleMapWpfApp\GoogleMapWpfApp\bin\Debug\GoogleMapWpfApp.exe
+C:\Users\coshri\Source\Repos\GoogleMapWpfApp\GoogleMapWpfApp\bin\Debug\GoogleMapWpfApp.pdb
+C:\Users\coshri\Source\Repos\GoogleMapWpfApp\GoogleMapWpfApp\bin\Debug\GoogleMapsApi.dll
+C:\Users\coshri\Source\Repos\GoogleMapWpfApp\GoogleMapWpfApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\coshri\Source\Repos\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\GoogleMapWpfApp.csprojResolveAssemblyReference.cache
+C:\Users\coshri\Source\Repos\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\MainWindow.g.cs
+C:\Users\coshri\Source\Repos\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\UserControl\PlaceAutoCompleteUC.g.cs
+C:\Users\coshri\Source\Repos\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\App.g.cs
+C:\Users\coshri\Source\Repos\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\coshri\Source\Repos\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\GoogleMapWpfApp_MarkupCompile.cache
+C:\Users\coshri\Source\Repos\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\GoogleMapWpfApp_MarkupCompile.lref
+C:\Users\coshri\Source\Repos\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\MainWindow.baml
+C:\Users\coshri\Source\Repos\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\UserControl\PlaceAutoCompleteUC.baml
+C:\Users\coshri\Source\Repos\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\GoogleMapWpfApp.g.resources
+C:\Users\coshri\Source\Repos\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\GoogleMapWpfApp.Properties.Resources.resources
+C:\Users\coshri\Source\Repos\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\GoogleMapWpfApp.csproj.GenerateResource.Cache
+C:\Users\coshri\Source\Repos\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\GoogleMapWpfApp.exe
+C:\Users\coshri\Source\Repos\GoogleMapWpfApp\GoogleMapWpfApp\obj\Debug\GoogleMapWpfApp.pdb
