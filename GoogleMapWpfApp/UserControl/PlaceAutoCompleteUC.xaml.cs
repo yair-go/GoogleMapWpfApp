@@ -31,10 +31,18 @@ namespace GoogleMapWpfApp
         {
             if (text != null)
             {
-                List<string> result = algo.GoogleApiFunc.GetPlaceAutoComplete(text.ToString());
+                try
+                {
+                    List<string> result = algo.GoogleApiFunc.GetPlaceAutoComplete(text.ToString());
 
-                Action<List<string>> action = setListInvok;
-                Dispatcher.BeginInvoke(action, new object[] { result });
+                    Action<List<string>> action = setListInvok;
+                    Dispatcher.BeginInvoke(action, new object[] { result });
+                }
+                catch (Exception)
+                {
+
+                    
+                }
             }
         }
 
@@ -68,6 +76,25 @@ namespace GoogleMapWpfApp
                 this.Text = item.ToString();
                 textComboBox.IsDropDownOpen = false;
             }               
+        }
+
+     
+
+        private void textInput_PreviewKeyDown(object sender, System.Windows.Input.KeyEventArgs e)
+        {
+            if (e.Key == System.Windows.Input.Key.Down)
+            {
+                this.textComboBox.Focus();
+                
+            }
+        }
+
+        private void textComboBox_PreviewKeyUp(object sender, System.Windows.Input.KeyEventArgs e)
+        {
+            if (e.Key == System.Windows.Input.Key.Up)
+
+                if (this.textComboBox.SelectedIndex == 0)
+                    this.textInput.Focus();
         }
     }
 }

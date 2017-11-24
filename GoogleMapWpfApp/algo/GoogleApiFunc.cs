@@ -12,8 +12,8 @@ namespace GoogleMapWpfApp.algo
 {
     enum TravelType
     {
-        הליכה,
-        נסיעה
+        Walking,
+        Driving
     }
 
     class GoogleApiFunc
@@ -44,7 +44,7 @@ namespace GoogleMapWpfApp.algo
             {
                 var drivingDirectionRequest = new DirectionsRequest
                 {
-                    TravelMode = travelType == TravelType.הליכה ? TravelMode.Walking : TravelMode.Driving,
+                    TravelMode = travelType == TravelType.Walking ? TravelMode.Walking : TravelMode.Driving,
                     Origin = source,
                     Destination = dest,
                 };
@@ -67,7 +67,7 @@ namespace GoogleMapWpfApp.algo
             {
                 var drivingDirectionRequest = new DirectionsRequest
                 {
-                    TravelMode = travelType == TravelType.הליכה ? TravelMode.Walking : TravelMode.Driving,
+                    TravelMode = travelType == TravelType.Walking ? TravelMode.Walking : TravelMode.Driving,
                     Origin = source,
                     Destination = dest,
                 };
@@ -82,5 +82,7 @@ namespace GoogleMapWpfApp.algo
                 return default(TimeSpan);
             }
         }
+
+
     }
 }

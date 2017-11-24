@@ -26,13 +26,14 @@ namespace GoogleMapWpfApp
     {
         string source;
         string dest;
-        TravelMode travelMode;
-        Leg leg;
+        algo.TravelType travelType;
+        int distance = -1;
+        private TimeSpan duration;
 
         public MainWindow()
         {
             InitializeComponent();
-            TravelModeComboBox.ItemsSource = Enum.GetValues(typeof(TravelMode));
+            TravelModeComboBox.ItemsSource = Enum.GetValues(typeof(algo.TravelType));
         }
 
 
@@ -40,7 +41,7 @@ namespace GoogleMapWpfApp
         {
             source = sourcePlaceAutoCompleteUC.Text;
             dest = destPlaceAutoCompleteUC.Text;
-            travelMode = (TravelMode)TravelModeComboBox.SelectedItem;
+            travelType = (algo.TravelType)TravelModeComboBox.SelectedItem;
 
             System.ComponentModel.BackgroundWorker work = new System.ComponentModel.BackgroundWorker();
             work.DoWork += W_DoWork;
@@ -51,31 +52,26 @@ namespace GoogleMapWpfApp
 
         private void W_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
         {
-            leg = null;
             try
             {
-                var drivingDirectionRequest = new DirectionsRequest
-                {
-                    TravelMode = travelMode,
-                    Origin = source,
-                    Destination = dest,
-                };
-
-                DirectionsResponse drivingDirections = GoogleMaps.Directions.Query(drivingDirectionRequest);
-                Route route = drivingDirections.Routes.First();
-                leg = route.Legs.First();
+                distance = algo.GoogleApiFunc.CalcDistance(source, dest, travelType);
+                duration = algo.GoogleApiFunc.CalcDuration(source, dest, travelType);
             }
             catch (Exception)
             {
-               leg = null;
+                distance = -1;
             }
         }
         private void W_RunWorkerCompleted(object sender, System.ComponentModel.RunWorkerCompletedEventArgs e)
         {
-           if(leg != null)
+            if (distance != -1)
             {
-                distanceResult.Content = leg.Distance.Text;
-                durationResult.Content = leg.Duration.Text;
+                if (distance < 1000)
+                    distanceResult.Content = distance + " meters";
+                else
+                    distanceResult.Content = distance / 1000.0 + " km";
+
+                durationResult.Content = duration.ToString();
             }
            else
             {

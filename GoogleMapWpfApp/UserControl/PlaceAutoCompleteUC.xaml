@@ -6,7 +6,10 @@
              xmlns:local="clr-namespace:GoogleMapWpfApp"
              mc:Ignorable="d" >
     <Grid>
-        <ComboBox x:Name="textComboBox"  SelectionChanged="textComboBox_SelectionChanged"  />
-        <TextBox x:Name="textInput"  TextChanged="textInput_TextChanged" Text="{Binding Text, UpdateSourceTrigger=PropertyChanged}" />     
+        <ComboBox x:Name="textComboBox"  SelectionChanged="textComboBox_SelectionChanged"  PreviewKeyUp="textComboBox_PreviewKeyUp"/>
+        <TextBox x:Name="textInput"  
+                 TextChanged="textInput_TextChanged"
+                 Text="{Binding Text, UpdateSourceTrigger=PropertyChanged}" 
+            PreviewKeyDown="textInput_PreviewKeyDown" />     
     </Grid>
 </UserControl>
